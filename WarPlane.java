@@ -11,5 +11,5 @@ package javaapplication21;
  * @author Иван
  */
 public class WarPlane extends Plane{
-    
+  protected String typeWeapons;
 }

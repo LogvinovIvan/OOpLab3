@@ -11,5 +11,5 @@ package javaapplication21;
  * @author Иван
  */
 public class AirFreigther extends CivilPlane{
-    
+  protected int cargoWeight;
 }

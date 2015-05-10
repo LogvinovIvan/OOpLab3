@@ -11,5 +11,5 @@ package javaapplication21;
  * @author Иван
  */
 public class Fighter extends WarPlane{
-    
+   protected int afterburner;
 }

@@ -11,5 +11,5 @@ package javaapplication21;
  * @author Иван
  */
 public class AirLiner extends CivilPlane{
- private int count;   
+  protected int numberOfSeats;
 }
