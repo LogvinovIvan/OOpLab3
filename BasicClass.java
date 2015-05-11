@@ -6,14 +6,12 @@
 
 package javaapplication21;
 
+import java.util.List;
+
 /**
  *
  * @author Иван
  */
-public class AirLiner extends CivilPlane{
-  protected int numberOfSeats;
-  public void setNumberOfSeats( int numberOfSeats)
-  {
-      this.numberOfSeats = numberOfSeats;
-  }
+public class BasicClass {
+    public List<Plane> list;
 }

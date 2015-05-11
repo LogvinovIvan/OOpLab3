@@ -4,16 +4,14 @@
  * and open the template in the editor.
  */
 
-package javaapplication21;
+package GraphicsElements;
+
+import javax.swing.JPanel;
 
 /**
  *
  * @author Иван
  */
-public class AirLiner extends CivilPlane{
-  protected int numberOfSeats;
-  public void setNumberOfSeats( int numberOfSeats)
-  {
-      this.numberOfSeats = numberOfSeats;
-  }
+public interface IAddGraphicsElements {
+    void addElements(JPanel jPanel);
 }

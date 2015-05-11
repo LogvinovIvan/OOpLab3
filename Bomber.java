@@ -11,5 +11,9 @@ package javaapplication21;
  * @author Иван
  */
 public class Bomber extends WarPlane{
-   protected String typeBomber; 
+   protected String typeBomber;
+   public void setTypeBomber( String typeBomber)
+   {
+       this.typeBomber = typeBomber;
+   }
 }

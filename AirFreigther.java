@@ -12,4 +12,8 @@ package javaapplication21;
  */
 public class AirFreigther extends CivilPlane{
   protected int cargoWeight;
+  public  void setCargoWeight( int weight)
+  {
+      this.cargoWeight = weight;
+  }
 }

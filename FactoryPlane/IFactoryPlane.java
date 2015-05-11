@@ -4,16 +4,16 @@
  * and open the template in the editor.
  */
 
-package javaapplication21;
+package FactoryPlane;
+
+import java.util.List;
+import javaapplication21.Plane;
 
 /**
  *
  * @author Иван
  */
-public class AirLiner extends CivilPlane{
-  protected int numberOfSeats;
-  public void setNumberOfSeats( int numberOfSeats)
-  {
-      this.numberOfSeats = numberOfSeats;
-  }
+public interface IFactoryPlane {
+    public Plane setInformation(List<String> str);
+    public void GetInformation (Plane plane);
 }

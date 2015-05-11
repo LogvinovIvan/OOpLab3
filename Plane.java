@@ -6,14 +6,65 @@
 
 package javaapplication21;
 
-import java.util.Date;
+
 
 /**
  *
  * @author Иван
  */
 public class Plane {
-    protected int maxHeight, maxSpeed;
-    protected Date date;
+    private int maxHeight, maxSpeed;
     protected String nameConstructor, nameCompany;
+    protected String type;
+    public void SetMaxHeight(int maxHeight) {
+        this.maxHeight = maxHeight;
+
+    }
+    
+    public void setMaxSpeed(int maxSpeed)
+    {
+        this.maxSpeed=maxSpeed;
+    }
+
+    public void setNameConstructor(String name)
+    {
+        this.nameConstructor=name;
+    }
+
+    public void setNameCompany(String nameCompany)
+    {
+        this.nameCompany=nameCompany;
+    }
+
+    
+    public void setTypePlane(String type)
+    {
+        this.type=type;
+    }
+    
+    public int getMaxHeight()
+    {
+        return this.maxHeight;
+    }
+
+    public int getMaxSpeed()
+    {
+        return maxSpeed;
+    }
+
+
+    public String getNameConstructor()
+    {
+        return this.nameConstructor;
+    }
+
+    public String getNameCompany()
+    {
+        return this.nameCompany;
+    }
+    
+    public String getType()
+    {
+        return this.type;
+    }
 }
