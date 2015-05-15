@@ -11,5 +11,16 @@ package javaapplication21;
  * @author Иван
  */
 public class CivilPlane extends Plane{
-    protected String typeLine;
+    private String typeLine;
+    
+    public void setTypeLine(String typeLine)
+    {
+       this.typeLine = typeLine; 
+    }
+
+
+    public String getTypeLine ()
+    {
+        return  this.typeLine;
+    }
 }

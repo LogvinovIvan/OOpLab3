@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package FactoryPlane;
+package Inforamtion;
 
 import java.util.List;
 import javaapplication21.Plane;
@@ -14,7 +14,8 @@ import javax.swing.JPanel;
  *
  * @author Иван
  */
-public interface IFactoryPlane {
-    public Plane setInformation();
-    
+public interface IInformation {
+   public void GetInformation (Plane plane , JPanel jPanel);
+   public void GetInformation (JPanel jPanel);
+   public Plane SetInformation (List<String> str , Plane plane);
 }

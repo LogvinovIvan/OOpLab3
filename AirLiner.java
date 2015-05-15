@@ -11,9 +11,14 @@ package javaapplication21;
  * @author Иван
  */
 public class AirLiner extends CivilPlane{
-  protected int numberOfSeats;
+  private int numberOfSeats;
   public void setNumberOfSeats( int numberOfSeats)
   {
       this.numberOfSeats = numberOfSeats;
+  }
+
+  public int getNumberOfSeats()
+  {
+      return this.numberOfSeats;
   }
 }

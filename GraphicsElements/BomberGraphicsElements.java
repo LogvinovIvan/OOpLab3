@@ -21,7 +21,7 @@ public  class BomberGraphicsElements implements IAddGraphicsElements{
     @Override
     public void addElements(JPanel jPanel) {
        
-      
+      jPanel.removeAll();
        JLabel label[] = new JLabel[6];
        label[0] = new JLabel("Имя конструктора");
        label[1] = new JLabel("Марка");

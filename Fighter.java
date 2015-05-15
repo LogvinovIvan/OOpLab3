@@ -11,9 +11,14 @@ package javaapplication21;
  * @author Иван
  */
 public class Fighter extends WarPlane{
-   protected int afterburner;
+   private int afterburner;
    public void setAfterburner( int afterburner)
    {
        this.afterburner = afterburner;
+   }
+
+   public int getAfterburner()
+   {
+       return this.afterburner;
    }
 }

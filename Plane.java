@@ -14,8 +14,8 @@ package javaapplication21;
  */
 public class Plane {
     private int maxHeight, maxSpeed;
-    protected String nameConstructor, nameCompany;
-    protected String type;
+    private String nameConstructor, nameCompany ;
+    private String type;
     public void SetMaxHeight(int maxHeight) {
         this.maxHeight = maxHeight;
 

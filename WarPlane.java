@@ -11,5 +11,14 @@ package javaapplication21;
  * @author Иван
  */
 public class WarPlane extends Plane{
-  protected String typeWeapons;
+  private String typeWeapons;
+  public void setTypeWeapons(String typeWeapons)
+  {
+      this.typeWeapons  = typeWeapons;
+  }
+  
+  public String getTypeWeapons()
+  {
+      return  this.typeWeapons;
+  }
 }
